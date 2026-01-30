@@ -6,3 +6,8 @@
 
 [node name="StaticBody2D" parent="." unique_id=112415412 instance=ExtResource("1_glv2v")]
 position = Vector2(0, 6)
+
+[node name="Label" type="Label" parent="." unique_id=752589159]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Hello world"
