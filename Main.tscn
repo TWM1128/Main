@@ -10,8 +10,7 @@ script = ExtResource("1_uu6xs")
 position = Vector2(0, 6)
 
 [node name="Label" type="Label" parent="." unique_id=752589159]
-offset_left = 4.0
-offset_top = -24.0
-offset_right = 93.0
-offset_bottom = -1.0
+offset_top = 16.0
+offset_right = 89.0
+offset_bottom = 39.0
 text = "Hello world"
