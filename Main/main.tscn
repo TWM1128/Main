@@ -1,13 +1,8 @@
 [gd_scene format=3 uid="uid://ekvt1amehlo"]
 
-[ext_resource type="Script" path="res://Main/camera_2d.gd" id="1_2w1kt"]
 [ext_resource type="PackedScene" uid="uid://b6ku3qbuiiof2" path="res://FirstLevel/FirstLevel.tscn" id="2_2w1kt"]
 
 [node name="Main" type="Node2D" unique_id=912201032]
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1358124695]
-position = Vector2(572, 324)
-script = ExtResource("1_2w1kt")
-
 [node name="FirstLevel" parent="." unique_id=1853246182 instance=ExtResource("2_2w1kt")]
-position = Vector2(0, 3)
+position = Vector2(-1, 0)
