@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://ekvt1amehlo"]
+
+[ext_resource type="PackedScene" uid="uid://d1gm1e8j82ken" path="res://Character/character.tscn" id="1_yh5la"]
+
+[node name="Main" type="Node2D" unique_id=912201032]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1358124695]
+position = Vector2(572, 324)
+
+[node name="Character" parent="Camera2D" unique_id=1069192376 instance=ExtResource("1_yh5la")]
+position = Vector2(16, 247)
