@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://b6ku3qbuiiof2"]
+
+[ext_resource type="Texture2D" uid="uid://b4d1v3dtutwln" path="res://FirstLevel/background.png" id="1_y8k5r"]
+[ext_resource type="PackedScene" uid="uid://d1gm1e8j82ken" path="res://Character/character.tscn" id="2_s1d1y"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y8k5r"]
+size = Vector2(427, 26)
+
+[node name="FirstLevel" type="Node2D" unique_id=1853246182]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1401787998]
+position = Vector2(214.50002, 322.74997)
+scale = Vector2(2.1349998, 2.1349998)
+texture = ExtResource("1_y8k5r")
+vframes = 2
+
+[node name="Character" parent="." unique_id=1069192376 instance=ExtResource("2_s1d1y")]
+position = Vector2(208, 549)
+
+[node name="Foreground" type="Sprite2D" parent="." unique_id=386168992]
+position = Vector2(214.50002, 322.74997)
+scale = Vector2(2.1349998, 2.1349998)
+texture = ExtResource("1_y8k5r")
+vframes = 2
+frame = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=883241545]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=99417764]
+position = Vector2(212.5, 632)
+shape = SubResource("RectangleShape2D_y8k5r")
