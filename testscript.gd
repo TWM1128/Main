@@ -10,5 +10,5 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	print("hello world")
 	print("a")
-	print("b")
+	print("Sniper change")
 	pass
