@@ -9,6 +9,6 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	print("hello world")
-	print("a")
-	print("b")
+	print("invincible change")
+	print("invincible change")
 	pass
