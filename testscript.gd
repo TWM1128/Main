@@ -11,4 +11,6 @@ func _process(delta: float) -> void:
 	print("hello world")
 	print("invincible change")
 	print("invincible change")
+	print("a")
+	print("Sniper change")
 	pass
