@@ -15,7 +15,7 @@ texture = ExtResource("1_y8k5r")
 vframes = 2
 
 [node name="Character" parent="." unique_id=1069192376 instance=ExtResource("2_s1d1y")]
-position = Vector2(62, 584)
+position = Vector2(102, 512)
 
 [node name="Foreground" type="Sprite2D" parent="." unique_id=386168992]
 position = Vector2(582, 324)
