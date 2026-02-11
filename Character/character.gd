@@ -9,7 +9,7 @@ func _physics_process(delta: float) -> void:
 		velocity.x=0
 	print(position.x)
 	move_and_slide()
-	position.x=clampf(position.x,0,1152)
+	position.x=clampf(position.x,40,1110)
 	if(velocity.x==0):
 		$AnimatedSprite2D.play("Idle")
 	else:
