@@ -1,5 +1,5 @@
 extends CharacterBody2D
-var speed:float=300
+var speed:float=200
 func _physics_process(delta: float) -> void:
 	if(Input.is_action_pressed("move left")):
 		velocity.x=-speed
@@ -10,4 +10,14 @@ func _physics_process(delta: float) -> void:
 	print(position.x)
 	move_and_slide()
 	position.x=clampf(position.x,0,1152)
+	if(velocity.x==0):
+		$AnimatedSprite2D.play("Idle")
+	else:
+		$AnimatedSprite2D.play("Walking")
+	if(velocity.x==-speed):
+		$AnimatedSprite2D.flip_h=true
+	elif(velocity.x==speed):
+		$AnimatedSprite2D.flip_h=false
 	pass
+	
+	
